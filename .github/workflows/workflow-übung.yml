@@ -16,6 +16,7 @@ jobs:
               run: git clone https://github.com/hasib9669/GitWorkflow-Aufgabe.git
             - name: running shell script
               run: |
-                chmod +x script.sh
-                bash ./GitWorkflow-Aufgabe/script
+                ls -la 
+                chmod +x ./GitWorkflow-Aufgabe/script.sh
+                bash ./GitWorkflow-Aufgabe/script.sh
 
