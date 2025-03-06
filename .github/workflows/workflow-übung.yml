@@ -25,9 +25,7 @@ jobs:
               run: |
                 if [ -r "./GitWorkflow-Aufgabe/index.html" ]
                 echo "index.hmtl existiert "
-                else 
-                echo "Datei existiert nciht"
-                fi
+                
               shell: bash
 
 
