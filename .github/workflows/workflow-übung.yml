@@ -24,8 +24,8 @@ jobs:
             - name: checking if file exist
               run: |
                 cd GitWorkflow-Aufgabe
-                ls -la
-                if [ -r "./GitWorkflow-Aufgabe/index.ht" ]; then
+                ls 
+                if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
                   echo "Datei existiert "
                 else
                   echo "Datei existiert nicht"
