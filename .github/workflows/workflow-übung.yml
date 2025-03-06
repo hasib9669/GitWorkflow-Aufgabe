@@ -6,12 +6,7 @@ on:
     pull_request: 
             branches: 
              - master
-    workflow_dispatch:
-            inputs:
-              enviroment: 
-                description: "Geben Sie einen Dateiname ein"
-
-
+   
 
 jobs:
     Explore-Github-Actions:
@@ -30,7 +25,7 @@ jobs:
               run: |
                 ls -la
                 cd GitWorkflow-Aufgabe
-                if [ -r "$[inputs.enviroment]" ]; then
+                if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
                   echo "index.hmtl existiert "
                 else
                   echo "Datei existiert nicht"
