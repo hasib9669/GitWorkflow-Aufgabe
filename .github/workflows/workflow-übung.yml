@@ -23,8 +23,8 @@ jobs:
                 bash script.sh 
             - name: checking if file exist
               run: |
-                ls -la
                 cd GitWorkflow-Aufgabe
+                ls -la
                 if [ -r "./GitWorkflow-Aufgabe/index.ht" ]; then
                   echo "Datei existiert "
                 else
