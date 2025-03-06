@@ -17,5 +17,5 @@ jobs:
             - name: running shell script
               run: |
                 chmod +x script.sh
-                bash script.sh
+                bash ./GitWorkflow-Aufgabe/script.sh
 
