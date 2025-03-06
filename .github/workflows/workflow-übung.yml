@@ -24,7 +24,7 @@ jobs:
               run: |
                 cd GitWorkflow-Aufgabe
               
-                if [ -r "./GitWorkflow-Aufgabe/test.txt" ]; then
+                if [ -r "./GitWorkflow-Aufgabe/text.txt" ]; then
                   echo "Datei existiert "
                 else
                   echo "Datei existiert nicht"
