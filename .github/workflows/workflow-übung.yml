@@ -1,0 +1,21 @@
+name: Workflow-Übung
+on: 
+    push:
+        branches: 
+            - master
+    pull_request: 
+            branches: 
+             - master
+
+
+jobs:
+    Explore-Github-Actions:
+        runs-on: ubuntu-latest
+        steps:
+            - name: cloning repository
+              run: git clone https://github.com/hasib9669/GitWorkflow-Aufgabe.git
+            - name: running shell script
+              run: |
+                chmod +x script.sh
+                bash script.sh
+                
