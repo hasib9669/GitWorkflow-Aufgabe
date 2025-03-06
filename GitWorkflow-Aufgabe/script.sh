@@ -1,2 +1,2 @@
-Echo "Ich heiße Hasibullah Rezaie"
+echo "Ich heiße Hasibullah Rezaie"
 
