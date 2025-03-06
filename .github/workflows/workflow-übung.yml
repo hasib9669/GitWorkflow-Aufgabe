@@ -19,9 +19,10 @@ jobs:
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 chmod +x script.sh
                 bash script.sh 
+            
             - name: checking if file exist
               run: |
-                cd GitWorkflow-Aufgabe
+                cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 ls 
                 if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
                   echo "Datei existiert "
