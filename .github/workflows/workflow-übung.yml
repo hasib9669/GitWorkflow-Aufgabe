@@ -16,9 +16,7 @@ jobs:
               run: git clone https://github.com/hasib9669/GitWorkflow-Aufgabe.git
             - name: running shell script
               run: |
-                ls -la
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
-                ls
                 chmod +x script.sh
                 bash script.sh 
             - name: checking if file exist
