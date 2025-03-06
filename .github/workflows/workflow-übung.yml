@@ -19,6 +19,6 @@ jobs:
                 ls -la
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 ls
-                chmod +x ./GitWorkflow-Aufgabe/script.sh
-                bash ./GitWorkflow-Aufgabe/script.sh 
+                chmod +x ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe/script.sh
+                bash ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe/script.sh 
 
