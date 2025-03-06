@@ -34,7 +34,7 @@ jobs:
             - name: Auflistung der Dateien
               run: |
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
-                ls -la 
+                ls 
 
 
 
