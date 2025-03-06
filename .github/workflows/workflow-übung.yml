@@ -24,14 +24,14 @@ jobs:
               run: |
                 cd GitWorkflow-Aufgabe
               
-                if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
+                if [ -r "./GitWorkflow-Aufgabe/index.htm" ]; then
                   echo "Datei existiert "
                 else
                   echo "Datei existiert nicht"
                 fi
               shell: bash
 
-            - name: Auflistung der Dateien
+            - name: listing files in Github repo
               run: |
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 ls 
