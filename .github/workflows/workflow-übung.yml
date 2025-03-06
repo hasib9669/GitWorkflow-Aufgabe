@@ -24,6 +24,7 @@ jobs:
             - name: checking if file exist
               run: |
                 ls -la
+                cd GitWorkflow-Aufgabe
                 if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
                   echo "index.hmtl existiert "
                 else
