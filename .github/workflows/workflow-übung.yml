@@ -25,7 +25,7 @@ jobs:
               run: |
                 ls -la
                 cd GitWorkflow-Aufgabe
-                if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
+                if [ -r "./GitWorkflow-Aufgabe/index.ht" ]; then
                   echo "Datei existiert "
                 else
                   echo "Datei existiert nicht"
