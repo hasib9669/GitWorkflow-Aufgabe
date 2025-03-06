@@ -23,7 +23,7 @@ jobs:
                 bash script.sh 
             - name: checking if file exist
               run: |
-                if [ -r "./GitWorkflow-Aufgabe/index.html" ]
+                if [ -r "./GitWorkflow-Aufgabe/index.html" ]; then
                   echo "index.hmtl existiert "
                 else
                   echo "Datei existiert nicht"
