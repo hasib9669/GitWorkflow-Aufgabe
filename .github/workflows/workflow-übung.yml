@@ -20,5 +20,5 @@ jobs:
                 cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 ls
                 chmod +x script.sh
-                bash ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe/script.sh 
+                bash script.sh 
 
