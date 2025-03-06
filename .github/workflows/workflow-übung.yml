@@ -16,7 +16,7 @@ jobs:
               run: git clone https://github.com/hasib9669/GitWorkflow-Aufgabe.git
             - name: running shell script
               run: |
-                cd GitWorkflow-Aufgabe
+                cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
                 chmod +x script.sh
                 bash script.sh 
             
@@ -30,6 +30,11 @@ jobs:
                   echo "Datei existiert nicht"
                 fi
               shell: bash
+
+            - name: Auflistung der Dateien
+              run: |
+                cd ./GitWorkflow-Aufgabe/GitWorkflow-Aufgabe
+                ls -la 
 
 
 
