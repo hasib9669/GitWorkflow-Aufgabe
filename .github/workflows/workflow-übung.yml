@@ -21,4 +21,14 @@ jobs:
                 ls
                 chmod +x script.sh
                 bash script.sh 
+            - name: checking if file exist
+              run: |
+                if [ -r "./GitWorkflow-Aufgabe/index.html" ]
+                echo "index.hmtl existiert "
+                else 
+                echo "Datei existiert nciht"
+                fi
+              shell: bash
+
+
 
